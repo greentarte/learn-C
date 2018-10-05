@@ -1110,7 +1110,6 @@ int main()
 포인터에 할당된 메모리 2차원 배열처럼 사용
 
 - **자료형 \**포인터이름 = malloc(sizeof(자료형 *) * 세로크기);**와 같이 세로 공간 메모리 할당
-
 - - 반복문으로 반복하면서 **포인터[i] = malloc(sizeof(자료형) \* 가로크기);**와 같이 가로 공간 메모리 할당
   - 반복문으로 반복하면서 **free(포인터[i]);**와 같이 가로 공간 메모리 해제
   - **free(포인터);**와 같이 세로 공간 메모리 해제
@@ -1148,4 +1147,10 @@ int main()
     return 0;
 }
 ```
+
+![](https://dojang.io/pluginfile.php/383/mod_page/content/22/unit38-2.png)
+
+![](https://dojang.io/pluginfile.php/383/mod_page/content/22/unit38-3.png)
+
+
 
